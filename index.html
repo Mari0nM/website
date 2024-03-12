@@ -21,6 +21,11 @@
                 colors: {
                     "gray": "#323232",
                 },
+                extend: {
+                    screens: {
+                        "3xl": "2560px",
+                    },
+                },
             }
         }
     </script>
@@ -28,13 +33,13 @@
 </head>
 
 <body class="bg-neutral-50 text-gray">
-    <main class="container mx-auto px-5 h-screen">
+    <main class="px-5 sm:px-10 md:px-24 lg:px-32 xl:px-36 2xl:px-42 3xl:px-64 h-screen">
         <div style="height: 50vh;" class="flex flex-col justify-end">
-            <h1 class="text-5xl md:text-7xl font-semibold py-3 align-text-bottom">Hi! I'm Marion –</h1>
+            <h1 class="text-5xl md:text-7xl 3xl:text-8xl font-semibold py-3 align-text-bottom">Hi! I'm Marion –</h1>
         </div>
         <div style="height: 50vh;" class="flex flex-col gap-20">
-            <p class="text-2xl md:text-3xl">a self-taught digital designer</p>
-            <p class="text-2xl md:text-3xl">Check out <a href="./portfolio.pdf"><span>my portfolio</span></a></p>
+            <p class="text-2xl md:text-3xl 3xl:text-4xl">a self-taught digital designer</p>
+            <p class="text-2xl md:text-3xl 3xl:text-4xl">Check out <a href="./portfolio.pdf"><span>my portfolio</span></a></p>
         </div>
     </main>
 </body>
